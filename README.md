@@ -3,4 +3,32 @@ This repository contains the Agda code associated with the paper "D. Firsov, T. 
 
 ## Contents
 
+- Definitions of notions of finiteness 
+	- Listable.agda
+	- Noetherian.agda
+	- Streamless.agda
+	- Bounded.agda
+	- AlmostFull.agda
+- NoethExamples.agda - examples of noetherian sets
+- Properties of notions of Noetherianness 
+	- NoethAccDecEq.agda 
+		-- NoethDecEq
+	- NoethRels.agda 
+		-- NoethAcc→NoethAccS
+		-- NoethAccS→NoethSet
+		-- NoethSet→NoethAccS
+		-- NoethAccS→NoethGame
+		-- NoethExposeX→Listable
+	-  StreamlessProps.agda
+		-- NoethAccS→StreamlessS
+		-- NoethAcc→Streamless
+	- AlmostFullProps.agda 
+		-- AFEq→NoethAcc
+		-- NoethAcc→AFEq
+- Separating notions
+	- NotNotIn.agda -- separating NoethAcc from NoethAccS
+	- MaybeProp.agda -- separating NoethExpose from Bounded
+	- PropSet.agda -- separating Listability from NoethExpose
+
 ## Setup
+Agda @ 2.6.0.1, agda-stdlib @ 1.1-1

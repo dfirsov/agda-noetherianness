@@ -5,10 +5,9 @@ module Streamless where
 open import Relation.Binary.PropositionalEquality
 open import Relation.Nullary
 open import Data.List
-open import Data.Colist renaming (_∈_ to _∈c_)
+open import Codata.Musical.Colist renaming (_∈_ to _∈c_)
 open import Utilities
-open import Coinduction
-
+open import Codata.Musical.Notation
 
 
 
